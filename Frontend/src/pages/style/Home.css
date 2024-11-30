@@ -1,0 +1,33 @@
+.home h1 {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  margin-bottom: 0px;
+  text-align: center;
+  align-items: center;
+  font-size: 6rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.home h1:hover {
+  font-size: 7rem;
+  color: rgb(255, 29, 29);
+}
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* max-width:90%; */
+}
+.home p {
+  margin-top: 3rem;
+  max-width: 800px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 3rem;
+}
+
+.home p:hover {
+  transition: 0.5ms smooth;
+  color: rgb(21, 65, 65);
+  font-size: 4.5rem;
+}

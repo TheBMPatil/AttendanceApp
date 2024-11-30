@@ -1,0 +1,86 @@
+/* General Container Styling */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Title Styling */
+.container h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Input Fields */
+.inData {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.in-label {
+  font-size: 14px;
+  color: #555;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.in-box {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.in-box:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Error Message Styling */
+.error {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button[type="submit"]:active {
+  background-color: #004085;
+  transform: scale(0.95);
+}
+
+/* Responsive Styling */
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+}
